@@ -1,6 +1,10 @@
 # Aventen-Formosa-Sync
 Introduction to the Aventen Formosa Sync on Github
 ![Anew2_2K (2)](https://github.com/avencan/Aventen-Formosa-Sync/assets/140997610/1c519d4e-4e21-4dd1-9aa2-11c8559b3667)
+![58AE1D279670F2A5D91E05173122A41B](https://github.com/avencan/Aventen-Formosa-Sync/assets/140997610/314c3d87-0182-47c3-9b1b-d13a7578dba5)
+![784FD2C206FA1F78D678C8938182A914](https://github.com/avencan/Aventen-Formosa-Sync/assets/140997610/73768421-0c3a-455f-9a52-2edafd22b21f)
+
+
 
 # Features
 The Aventen Formosa Sync is a high-performance development board equipped with a 600 MHz RT106S MCU (overclockable to a GHz) , built-in WiFi 5 capability + bluetooth with audio, USB OTG, and an array of advanced features like RGB LEDs, USB-C connectivity, and comprehensive battery management. Designed for versatile applications, from IoT makers looking for the best for all projects to industrial solutions and professionals, it offers a seamless blend of power and innovation in an compact, breadboardable formfactor.
