@@ -14,7 +14,7 @@ We are in the prototype stage, and not alot of details have been posted online a
 - More details to come soon 
 
 Crowdfunding on Crowdsupply: https://www.crowdsupply.com/aventen/aventen-formosa-sync
-
+News: https://www.hackster.io/news/aventen-formosa-sync-is-a-high-performance-dev-board-running-up-to-1-ghz-f2581d62fd3c
 # Add on boards
 
 - RJ45 LAN8720A Ethernet Board: https://github.com/avencan/Aventen-Formosa-Sync/tree/main/RJ45/RJ45%20Board
