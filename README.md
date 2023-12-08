@@ -15,6 +15,11 @@ We are in the prototype stage, and not alot of details have been posted online a
 
 Crowdfunding on Crowdsupply: https://www.crowdsupply.com/aventen/aventen-formosa-sync
 
+# Add on boards
+
+- RJ45 LAN8720A Ethernet Board: https://github.com/avencan/Aventen-Formosa-Sync/tree/main/RJ45/RJ45%20Board
+![RJ45 Board](https://github.com/avencan/Aventen-Formosa-Sync/assets/140997610/86d3339a-ee96-42e9-ad54-488362c2029c)
+
 # Strategy 
 Aventen Formosa Sync - Strategy for Makers and Professionals
 
