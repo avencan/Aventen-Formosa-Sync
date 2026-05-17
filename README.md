@@ -1,32 +1,57 @@
-# Aventen-Formosa-Sync
-Introduction to the Aventen Formosa Sync on Github
-![Anew2_2K (2)](https://github.com/avencan/Aventen-Formosa-Sync/assets/140997610/1c519d4e-4e21-4dd1-9aa2-11c8559b3667)
-# Features
-The Aventen Formosa Sync is a high-performance development board equipped with a 600 MHz RT1060 MCU (overclockable to a GHz - at the right conditions) , built-in WiFi 5 capability + bluetooth with audio, USB OTG, and an array of advanced features like RGB LEDs, USB-C connectivity, and comprehensive battery management. Designed for versatile applications, from IoT makers looking for the best for all projects to industrial solutions and professionals, it offers a seamless blend of power and innovation in an compact, breadboardable formfactor.
+> ⚠️ **This board has been superseded.** Aventen has moved on to the **Kypros** — a next-generation development board built on the NXP MIMXRT1176, featuring WiFi 6, Bluetooth 5.3, 802.15.4, Gigabit Ethernet, HDMI output, and dual-core 1GHz performance. The Formosa Sync remains open source and available for reference, but is no longer in active development.
+>
+> 👉 **[See the Aventen Kypros →](https://github.com/avencan/Aventen-Kypros)**
 
-| Name                       | MCU                  | PSRAM | FLASH | Built-in SD Card Slot | Built-in WiFi/Bluetooth | Onboard LED | Header Pins | USB Connector | Ethernet       | Debugging | Aux LDO 1A | Chip Antenna + IPX w RF Switch | Battery Support (JST) + USB LiPo Charge |
-|----------------------------|----------------------|-------|-------|------------------|-------------------------|-------------|-------------|---------------|----------------|----------|------------|--------------------------------|----------------------------------------|
-| Aventen Formosa Sync       | NXP MIMXRT106SDVL6B  | 8MB   | 16MB  | Y                | WiFi 5 - Murata 1ZM      | RGB + LED   | 35          | USB-C         | 10/100 LAN8720A | SWD/JTAG      | Y          | Y               | Y                                      |
+---
 
-# Status
-We are in the prototype stage, and not alot of details have been posted online about this board. We have finished and confirmed our first prototype, and are now finishing bootloader and IDE software support, we are on track to finishing by the end of 2023.
+# Aventen Formosa Sync
 
-- More details to come soon 
+![Aventen Formosa Sync](Anew2_2K%20(2))
 
-Crowdfunding on Crowdsupply: https://www.crowdsupply.com/aventen/aventen-formosa-sync
-News: https://www.hackster.io/news/aventen-formosa-sync-is-a-high-performance-dev-board-running-up-to-1-ghz-f2581d62fd3c
-# Add on boards
+## Introduction
 
-- RJ45 LAN8720A Ethernet Board: https://github.com/avencan/Aventen-Formosa-Sync/tree/main/RJ45/RJ45%20Board
-![RJ45 Board](https://github.com/avencan/Aventen-Formosa-Sync/assets/140997610/86d3339a-ee96-42e9-ad54-488362c2029c)
+The Aventen Formosa Sync is a high-performance development board equipped with a 600 MHz NXP RT1060 MCU (overclockable to 1GHz under the right conditions), built-in WiFi 5 + Bluetooth with audio, USB OTG, RGB LEDs, USB-C connectivity, and comprehensive battery management. Designed for IoT makers and professionals, it offers a seamless blend of power and innovation in a compact, breadboardable form factor.
 
-# Strategy 
-Aventen Formosa Sync - Strategy for Makers and Professionals
+## Specifications
 
-The NXP RT1060 board stands poised to offer a transformative experience for both casual makers and professional developers. To ensure accessibility and flexibility, a dual-faceted approach for board initialization and use is proposed.
+| Feature | Detail |
+|---|---|
+| MCU | NXP MIMXRT106SDVL6B |
+| PSRAM | 8MB |
+| Flash | 16MB |
+| SD Card | Built-in slot |
+| WiFi / Bluetooth | WiFi 5 — Murata 1ZM |
+| LEDs | RGB + status LED |
+| Header Pins | 35 |
+| USB | USB-C |
+| Ethernet | 10/100 LAN8720A |
+| Debugging | SWD / JTAG |
+| Aux LDO | 1A |
+| Antenna | Chip antenna + U.FL with RF switch |
+| Battery | JST connector + USB LiPo charging |
 
-For the makers and hobbyists, the primary goal is to ensure an out-of-the-box experience akin to "plug-and-play". This can be achieved by pre-installing a robust bootloader tailored for standard platforms like Arduino and PlatformIO. This approach  reduces the learning curve and allows immediate access to a familiar development environment, thus making it an attractive proposition for a vast majority of hobbyists. In addition to compatibility with standard Arduino libraries, it's crucial that this bootloader can be updated or even restored by users to maintain the board's versatility.
+## Status
 
-On the other hand, professional developers often demand a deeper level of control over their hardware. This necessitates direct MCU access without any bootloader restrictions. To cater to this, the board can expose SWD (Serial Wire Debug) pins + JTAG, allowing for direct programming and advanced debugging. This ensures that the board remains compatible with professional toolchains and environments like MCUXpresso, giving seasoned developers the freedom to exploit the full potential of the MCU.
+> **This board is no longer in active development.** It has been superseded by the [Aventen Kypros](https://github.com/avencan/Aventen-Kypros). The repository remains available for reference and the hardware files remain open source under the MIT licence.
 
-# Please submit an issue for suggestions thanks :)
+## Links
+
+- 🛒 Crowd Supply: https://www.crowdsupply.com/aventen/aventen-formosa-sync
+- 📰 Hackster.io: https://www.hackster.io/news/aventen-formosa-sync-is-a-high-performance-dev-board-running-up-to-1-ghz-f2581d62fd3c
+- 🔌 RJ45 Ethernet Add-on Board: https://github.com/avencan/Aventen-Formosa-Sync/tree/main/RJ45/RJ45%20Board
+
+## Add-on Boards
+
+**RJ45 LAN8720A Ethernet Board** — plugs into the GPIO headers for wired 10/100 Ethernet connectivity.
+
+## What Came Next
+
+We built Formosa Sync and loved it. Then we asked: *what if we threw out every compromise and started over?*
+
+The result is **Kypros** — the world's first Arduino-compatible board with WiFi 6, Gigabit Ethernet, HDMI output, and 802.15.4, all on a board smaller than a Raspberry Pi Zero.
+
+👉 **[Aventen Kypros on GitHub](https://github.com/avencan/Aventen-Kypros)**
+
+---
+
+*© 2026 Aventen Innovations Ltd — MIT Licence*
